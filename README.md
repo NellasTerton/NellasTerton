@@ -1,6 +1,6 @@
 # Hi there 👋, I'm Egor Iakobson
 
-**Full-Stack AI Creator | Lead Narrative Designer | Prompt Engineer** 🧠🎮
+**Full-Stack AI Creator | Narrative Designer | Prompt Engineer** 🧠🎮
 
 I bridge the gap between creative writing and technical logic. I architect procedural narratives, design complex AI personas (ToV), and build LLM-driven gameplay loops. From classic interactive storytelling to system-level AI integration, I create systems where the story dynamically adapts to the player.
 
@@ -8,7 +8,7 @@ I bridge the gap between creative writing and technical logic. I architect proce
 
 ### 🛠️ Core Stack & Expertise
 
-*   **AI & LLM Infra:** Commercial LLMs (Claude 3.5, GPT-4o), Local Models (Ollama), Multi-Agent Chaining, API/JSON Structuring, Bot Deployments (Make.com, Node).
+*   **AI & LLM Infra:** Commercial LLMs, Local Models (Ollama), Multi-Agent Chaining, API/JSON Structuring, Bot Deployments (Make.com, Node).
 *   **Narrative Architecture:** Variable-Driven Scenarios, Interactive Fiction Logic, Lore Database Engineering, Complex Moral Dilemmas.
 *   **Visual AI:** ComfyUI Node Workflows, Stable Diffusion pipelines.
 *   **Game Engines & Tools:** Unreal Engine, Unity, Arcweave, Articy: Draft, Yarn Spinner.
