@@ -13,8 +13,30 @@ I bridge the gap between creative writing and technical logic. I architect proce
 *   **Visual AI:** ComfyUI Node Workflows, Stable Diffusion pipelines.
 *   **Game Engines & Tools:** Unreal Engine, Unity, Arcweave, Articy: Draft, Yarn Spinner.
 
-### 🚀 What I'm currently working on
+### 🧠 AI Architecture & LLM Agents
+*Core projects demonstrating my prompt engineering, system design, and AI logic.*
 
-*   Designing the core LLM-driven "Game Master" system for **Uniqee** (Gamified Dating App).
-*   Architecting scalable narrative pipelines and variable-driven logic for indie games and interactive fiction.
-*   Building custom AI agents and Telegram/Discord bots.
+*   **[UniQee: LLM-Driven Gamified Dating App](https://github.com/NellaSTerton/uniqee)**
+    *Shows how I build LLM "Arbiters" using strict XML-prompting, multi-agent logic, and JSON-data mapping to control hallucinations and drive procedural narratives.*
+*   **[Telegram AI Companion Engine](https://github.com/NellaSTerton/Telegram-AI-Companion-Engine)**
+    *Shows the raw system prompts and state machine logic for an interactive, character-driven AI companion inside a Telegram Mini App.*
+
+### ⚡ Full-Stack PWA & Mini Apps
+*Functional products I've built and deployed using AI-assisted vibe-coding.*
+
+*   **[World Cup 2026 Predictions App](https://github.com/NellaSTerton/worldcupprediction)**
+    *An offline-first PWA built in 48 hours. Demonstrates the ability to ship full-stack apps (React + Supabase) with automated cron jobs and leaderboards.*
+*   **[Love Challenge (Telegram Mini App)](https://github.com/NellaSTerton/love-challenge)**
+    *A gamified 30-day challenge app utilizing a React/TypeScript frontend and an async Python backend for Telegram push notifications.*
+
+### 🧪 R&D Lab (In Development)
+*Concepts and systems I am currently building:*
+
+*   **Truth or Dare (ComfyUI Integration):** An interactive visual novel integrating real-time face-swap and dynamic character clothing generation via ComfyUI automated workflows.
+*   **Mobile-UI Interactive Fiction:** A procedural NSFW narrative game where 100% of the gameplay and branching choices happen through a simulated smartphone OS interface.
+*   **Myth & History Card Game:** A variable-driven collectible card game (MadFUT style) featuring historical figures and mythology.
+*   **Latvia Quiz (Unity):** A fast-paced educational trivia game built in Unity.
+
+---
+### 📫 Let's Connect
+**[Telegram](https://t.me/egoriakobson)** | **[LinkedIn](https://linkedin.com/in/egoriakobson)** | **egoriakobson@gmail.com**
