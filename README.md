@@ -18,7 +18,7 @@ I bridge the gap between creative writing and technical logic. I architect proce
 
 *   **[UniQee: LLM-Driven Gamified Dating App](https://github.com/NellaSTerton/uniqee)**
     *Shows how I build LLM "Arbiters" using strict XML-prompting, multi-agent logic, and JSON-data mapping to control hallucinations and drive procedural narratives.*
-*   **[Telegram AI Companion Engine](https://github.com/NellaSTerton/Telegram-AI-Companion-Engine)**
+*   **[Telegram AI Companion Engine](https://github.com/NellasTerton/AI-pornbot)**
     *Shows the raw system prompts and state machine logic for an interactive, character-driven AI companion inside a Telegram Mini App.*
 
 ### ⚡ Full-Stack PWA & Mini Apps
