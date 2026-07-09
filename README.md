@@ -26,6 +26,8 @@ I bridge the gap between creative writing and technical logic. I architect proce
 
 *   **[World Cup 2026 Predictions App](https://github.com/NellaSTerton/worldcupprediction)**
     *An offline-first PWA built in 48 hours. Demonstrates the ability to ship full-stack apps (React + Supabase) with automated cron jobs and leaderboards.*
+*   **[Lex CRM: LegalTech Dashboard & Automation](https://github.com/NellaSTerton/accessiblelawtest)**
+    *A prototype legal CRM demonstrating AI-assisted vibe-coding (Lovable). Features a React/TypeScript frontend integrated with Make.com and the Telegram Bot API to automate lead notification pipelines.*
 *   **[Love Challenge (Telegram Mini App)](https://github.com/NellaSTerton/love-challenge)**
     *A gamified 30-day challenge app utilizing a React/TypeScript frontend and an async Python backend for Telegram push notifications.*
 
