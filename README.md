@@ -30,7 +30,7 @@ I bridge the gap between creative writing and technical logic. I architect proce
     *A prototype legal CRM demonstrating AI-assisted vibe-coding (Lovable). Features a React/TypeScript frontend integrated with Make.com and the Telegram Bot API to automate lead notification pipelines.*
 *   **[Love Challenge (Telegram Mini App)](https://github.com/NellaSTerton/love-challenge)**
     *A gamified 30-day challenge app utilizing a React/TypeScript frontend and an async Python backend for Telegram push notifications.*
-    * [Corporate Booking Prototype](https://github.com/NellaSTerton/AI-Booking-Prototype)**
+*   **[Corporate Booking Prototype](https://github.com/NellaSTerton/AI-Booking-Prototype)**
     *A functional React scheduling app generated via Codex OpenAI. Demonstrates rapid UI prototyping and strict business logic implementation (double-booking overlap validation).*
 
 ### 🧪 R&D Lab (In Development)
