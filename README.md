@@ -1,6 +1,6 @@
 # Hi there 👋, I'm Egor Iakobson
 
-**AI-Native Product Builder** 🧠🎮
+**AI-Native Product Builder**
 
 I bridge the gap between creative writing and technical logic. I architect procedural narratives, design complex AI personas (ToV), and build LLM-driven gameplay loops. From classic interactive storytelling to system-level AI integration, I create systems where the story dynamically adapts to the player.
 
