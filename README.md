@@ -16,6 +16,8 @@ I bridge the gap between creative writing and technical logic. I architect proce
 ### 🧠 AI Architecture & LLM Agents
 *Core projects demonstrating my prompt engineering, system design, and AI logic.*
 
+*   **[Lord of the Rigs: RAG Agent with Tool Use](https://github.com/NellasTerton/Lord-of-the-Rigs)**
+    *A deployed fitness-club assistant grounded in a pgvector knowledge base: it answers strictly from retrieved facts and books real training sessions into Postgres via Claude tool calling. One shared agent core serves both a web chat widget and a Telegram bot.*
 *   **[UniQee: LLM-Driven Gamified Dating App](https://github.com/NellaSTerton/uniqee)**
     *Shows how I build LLM "Arbiters" using strict XML-prompting, multi-agent logic, and JSON-data mapping to control hallucinations and drive procedural narratives.*
 *   **[Telegram AI Companion Engine](https://github.com/NellasTerton/AI-pornbot)**
