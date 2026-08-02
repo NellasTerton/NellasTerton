@@ -1,48 +1,45 @@
-# Hi there 👋, I'm Egor Iakobson
+# Привет 👋 Я Егор Якобсон
+ 
+**Русский** | [English](README.en.md)
 
-**AI-Native Product Builder**
+**AI-Product Builder**
+Я соединяю художественное письмо и техническую логику. Я проектирую процедурные нарративы, создаю сложных AI-персонажей (ToV) и строю игровые циклы на основе LLM. От классического интерактивного повествования до системной AI-интеграции — я создаю системы, где история динамически подстраивается под игрока.
 
-I bridge the gap between creative writing and technical logic. I architect procedural narratives, design complex AI personas (ToV), and build LLM-driven gameplay loops. From classic interactive storytelling to system-level AI integration, I create systems where the story dynamically adapts to the player.
+🌍 Рига, Латвия.
 
-🌍 Based in Riga, Latvia.
+### 🛠️ Основной стек и экспертиза
 
-### 🛠️ Core Stack & Expertise
+*   **AI и LLM-инфраструктура:** Коммерческие LLM, локальные модели (Ollama), Multi-Agent Chaining, структурирование API/JSON, деплой ботов (Make.com, Node).
+*   **Нарративная архитектура:** Сценарии на переменных, логика интерактивной фикшн, инжиниринг баз данных лора, сложные моральные дилеммы.
+*   **Визуальный AI:** ComfyUI Node Workflows, пайплайны Stable Diffusion.
+*   **Игровые движки и инструменты:** Unreal Engine, Unity, Arcweave, Articy: Draft, Yarn Spinner.
+  
+### 🤖 AI-агенты и бизнес-автоматизация
 
-*   **AI & LLM Infra:** Commercial LLMs, Local Models (Ollama), Multi-Agent Chaining, API/JSON Structuring, Bot Deployments (Make.com, Node).
-*   **Narrative Architecture:** Variable-Driven Scenarios, Interactive Fiction Logic, Lore Database Engineering, Complex Moral Dilemmas.
-*   **Visual AI:** ComfyUI Node Workflows, Stable Diffusion pipelines.
-*   **Game Engines & Tools:** Unreal Engine, Unity, Arcweave, Articy: Draft, Yarn Spinner.
+*Продукты, решающие конкретную бизнес-задачу: встретить клиента, ответить по фактам, довести до записи.*
 
-### 🧠 AI Architecture & LLM Agents
-*Core projects demonstrating my prompt engineering, system design, and AI logic.*
+- **[Lord of the Rigs](https://github.com/NellasTerton/Lord-of-the-Rigs)** — задеплоенный ассистент фитнес-клуба, работающий на базе знаний pgvector: отвечает строго на основе найденных фактов и записывает на реальные тренировки в Postgres через tool calling Claude. Одно общее ядро агента обслуживает и веб-виджет чата, и Telegram-бота.
+- **[Medbot](https://github.com/NellasTerton/medbot)** — AI-консьерж для клиники. Роутинг интента на два режима: ответ по базе знаний через RAG или сбор заявки на приём с передачей в Make.com, Telegram и Notion. Юнит-тесты, а также smoke- и QA-прогоны против продакшена.
+- **[Lex CRM](https://github.com/NellasTerton/accessiblelawtest)** — прототип LegalTech-дашборда: React/TypeScript фронтенд, связанный с Make.com и Telegram Bot API для автоматизации уведомлений о лидах.
+- **[Corporate Booking](https://github.com/NellasTerton/AI-Booking-Prototype)** — сервис бронирования на React со строгой бизнес-логикой: валидация пересечения интервалов и защита от двойного бронирования.
 
-*   **[Lord of the Rigs: RAG Agent with Tool Use](https://github.com/NellasTerton/Lord-of-the-Rigs)**
-    *A deployed fitness-club assistant grounded in a pgvector knowledge base: it answers strictly from retrieved facts and books real training sessions into Postgres via Claude tool calling. One shared agent core serves both a web chat widget and a Telegram bot.*
-*   **[UniQee: LLM-Driven Gamified Dating App](https://github.com/NellaSTerton/uniqee)**
-    *Shows how I build LLM "Arbiters" using strict XML-prompting, multi-agent logic, and JSON-data mapping to control hallucinations and drive procedural narratives.*
-*   **[Telegram AI Companion Engine](https://github.com/NellasTerton/AI-pornbot)**
-    *Shows the raw system prompts and state machine logic for an interactive, character-driven AI companion inside a Telegram Mini App.*
+### 🧠 LLM-архитектура и промпт-инжиниринг
 
-### ⚡ Full-Stack PWA & Mini Apps
-*Functional products I've built and deployed using AI-assisted vibe-coding.*
+*Проекты, где ценность — в проектировании поведения модели, а не в приложении вокруг неё.*
 
-*   **[World Cup 2026 Predictions App](https://github.com/NellaSTerton/worldcupprediction)**
-    *An offline-first PWA built in 48 hours. Demonstrates the ability to ship full-stack apps (React + Supabase) with automated cron jobs and leaderboards.*
-*   **[Lex CRM: LegalTech Dashboard & Automation](https://github.com/NellaSTerton/accessiblelawtest)**
-    *A prototype legal CRM demonstrating AI-assisted vibe-coding (Lovable). Features a React/TypeScript frontend integrated with Make.com and the Telegram Bot API to automate lead notification pipelines.*
-*   **[Love Challenge (Telegram Mini App)](https://github.com/NellaSTerton/love-challenge)**
-    *A gamified 30-day challenge app utilizing a React/TypeScript frontend and an async Python backend for Telegram push notifications.*
-*   **[Corporate Booking Prototype](https://github.com/NellaSTerton/AI-Booking-Prototype)**
-    *A functional React scheduling app generated via Codex OpenAI. Demonstrates rapid UI prototyping and strict business logic implementation (double-booking overlap validation).*
+- **[UniQee](https://github.com/NellasTerton/uniqee)** — production LLM-«Арбитр»: агент-гейммастер, обрабатывающий одновременные скрытые инпуты двух пользователей и управляющий машиной состояний. Строгие XML-guardrails заставляют модель отдавать валидный JSON для безопасного парсинга бэкендом.
+- **[Telegram AI Companion Engine](https://github.com/NellasTerton/AI-pornbot)** — системные промпты и логика состояний для персонажного AI-компаньона внутри Telegram Mini App.
 
-### 🧪 R&D Lab (In Development)
-*Concepts and systems I am currently building:*
+### 🧪 R&D Lab
 
-*   **Truth or Dare (ComfyUI Integration):** An interactive visual novel integrating real-time face-swap and dynamic character clothing generation via ComfyUI automated workflows.
-*   **Mobile-UI Interactive Fiction:** A procedural NSFW narrative game where 100% of the gameplay and branching choices happen through a simulated smartphone OS interface.
-*   **Myth & History Card Game:** A variable-driven collectible card game (MadFUT style) featuring historical figures and mythology.
-*   **Latvia Quiz (Unity):** A fast-paced educational trivia game built in Unity.
+*Что я строю параллельно:*
 
----
-### 📫 Let's Connect
+- **[FixFlow AI](https://github.com/NellasTerton/fixflow-ai)** 🚧 *в активной разработке* — AI-диспетчер для выездных сервисных компаний.
+- **Truth or Dare (ComfyUI):** интерактивная визуальная новелла с real-time face-swap и генерацией одежды персонажей в реальном времени через автоматизированные workflow ComfyUI.
+- **Mobile-UI Interactive Fiction:** процедурная нарративная игра, где весь геймплей проходит через симулированный интерфейс смартфона.
+- **Myth & History Card Game:** коллекционная карточная игра на переменных (в стиле MadFUT) с историческими фигурами и мифологией.
+- **Latvia Quiz (Unity):** динамичная образовательная викторина, созданная на Unity.
+
+### 📫 Давайте на связь
+
 **[Telegram](https://t.me/egoriakobson)** | **[LinkedIn](https://linkedin.com/in/egoriakobson)** | **egoriakobson@gmail.com**
