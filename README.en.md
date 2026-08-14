@@ -28,6 +28,7 @@ I bridge the gap between creative writing and technical logic. I architect proce
  
 *Projects where the value is in designing model behaviour rather than the app around it.*
  
+- **[Lifestorypage](https://github.com/NellasTerton/lifestorypage)** — a service that turns a chat export into a verified story: every key moment is backed by a quote and passes an independent verification pass by a separate model call, instead of just "sounding plausible."
 - **[UniQee](https://github.com/NellasTerton/uniqee)** — a production LLM "Arbiter": a game-master agent processing simultaneous blind inputs from two users and driving a state machine. Strict XML guardrails force the model to return valid JSON for safe backend parsing.
 - **[Telegram AI Companion Engine](https://github.com/NellasTerton/AI-pornbot)** — system prompts and state logic for a character-driven AI companion inside a Telegram Mini App.
 
