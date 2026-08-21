@@ -4,17 +4,22 @@
 
 **AI-Product Builder**
 
-Помогаю бизнесу и стартапам автоматизировать процессы и собирать AI-продукты под конкретную задачу. От идеи до продакшена — фронтенд, база, интеграции, деплой.
+Помогаю бизнесу и стартапам автоматизировать процессы и собирать AI-продукты под конкретную задачу. От идеи до продакшена — фронтенд, база данных, интеграции и деплой.
 
 🌍 Рига, Латвия.
 
 ### 🛠️ Основной стек и экспертиза
 
-*   **AI и LLM-инфраструктура:** Коммерческие LLM, локальные модели (Ollama), Multi-Agent Chaining, структурирование API/JSON, деплой ботов (Make.com, Node).
-*   **Нарративная архитектура:** Сценарии на переменных, логика интерактивной фикшн, инжиниринг баз данных лора, сложные моральные дилеммы.
-*   **Визуальный AI:** ComfyUI Node Workflows, пайплайны Stable Diffusion.
-*   **Игровые движки и инструменты:** Unreal Engine, Unity, Arcweave, Articy: Draft, Yarn Spinner.
-  
+AI Models & APIs: Claude, Anthropic API, OpenAI / GPT, Gemini, Ollama, Voyage AI.
+RAG & Knowledge Retrieval: RAG, ingest, chunking, embeddings, pgvector, hybrid search, semantic search, grounding, source attribution.
+Agent & LLM Engineering: AI agents, tool calling, system prompts, prompt engineering, structured output, JSON contracts, XML guardrails, state machines, routing, validation, deterministic logic, fallback flows, LangGraph.
+Automation & Integrations: Make.com, n8n, REST API, webhooks, Telegram Bot API, Notion API, Tavily API.
+Backend & Data: Node.js, Python, JavaScript, TypeScript, SQL, PostgreSQL, Neon, Supabase, Drizzle ORM.
+Frontend & App Development: React, Next.js, Tailwind CSS, shadcn/ui, PWA, Telegram Mini Apps.
+Product Interfaces: internal tools, admin panels, CRM dashboards, Kanban workflows, lead management interfaces.
+Observability & Testing: Langfuse, AI run logging, latency, confidence, retrieval tracing, run history, unit tests, smoke tests, QA scenarios, token cost monitoring.
+Visual AI: ComfyUI Node Workflows, Stable Diffusion pipelines.
+
 ### 🤖 AI-агенты и бизнес-автоматизация
 
 *Продукты, решающие конкретную бизнес-задачу: встретить клиента, ответить по фактам, довести до записи.*
