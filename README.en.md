@@ -4,7 +4,7 @@
 
 **AI-Product Builder**
 
-I bridge the gap between creative writing and technical logic. I architect procedural narratives, design complex AI personas (ToV), and build LLM-driven gameplay loops. From idea to production — frontend, database, integrations, deployment.
+I help businesses and startups automate processes and build AI products for specific business needs. From idea to production — frontend, databases, integrations, and deployment.
 
 🌍 Based in Riga, Latvia.
 
