@@ -10,10 +10,15 @@ I bridge the gap between creative writing and technical logic. I architect proce
 
 ### 🛠️ Core Stack & Expertise
 
-*   **AI & LLM Infra:** Commercial LLMs, Local Models (Ollama), Multi-Agent Chaining, API/JSON Structuring, Bot Deployments (Make.com, Node).
-*   **Narrative Architecture:** Variable-Driven Scenarios, Interactive Fiction Logic, Lore Database Engineering, Complex Moral Dilemmas.
-*   **Visual AI:** ComfyUI Node Workflows, Stable Diffusion pipelines.
-*   **Game Engines & Tools:** Unreal Engine, Unity, Arcweave, Articy: Draft, Yarn Spinner.
+* **AI Models & APIs:** Claude, Anthropic API, OpenAI / GPT, Gemini, Ollama, Voyage AI.
+* **RAG & Knowledge Retrieval:** RAG, ingest, chunking, embeddings, pgvector, hybrid search, semantic search, grounding, source attribution.
+* **Agent & LLM Engineering:** AI agents, tool calling, system prompts, prompt engineering, structured output, JSON contracts, XML guardrails, state machines, routing, validation, deterministic logic, fallback flows, LangGraph.
+* **Automation & Integrations:** Make.com, n8n, REST API, webhooks, Telegram Bot API, Notion API, Tavily API.
+* **Backend & Data:** Node.js, Python, JavaScript, TypeScript, SQL, PostgreSQL, Neon, Supabase, Drizzle ORM.
+* **Frontend & App Development:** React, Next.js, Tailwind CSS, shadcn/ui, PWA, Telegram Mini Apps.
+* **Product Interfaces:** internal tools, admin panels, CRM dashboards, Kanban workflows, lead management interfaces.
+* **Observability & Testing:** Langfuse, AI run logging, latency, confidence, retrieval tracing, run history, unit tests, smoke tests, QA scenarios, token cost monitoring.
+* **Visual AI:** ComfyUI Node Workflows, Stable Diffusion pipelines.
 
 ### 🤖 AI Agents & Business Automation
  
