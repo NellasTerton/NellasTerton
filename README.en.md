@@ -28,6 +28,8 @@ I help businesses and startups automate processes and build AI products for spec
 - **[Medbot](https://github.com/NellasTerton/medbot)** — an AI concierge for a clinic. Intent routing into two modes: answering from the knowledge base via RAG, or collecting an appointment request and handing it off to Make.com, Telegram and Notion. Unit tests plus smoke and QA runs against production. 
 - **[Lex CRM](https://github.com/NellasTerton/accessiblelawtest)** — a LegalTech dashboard prototype: a React/TypeScript frontend wired to Make.com and the Telegram Bot API to automate lead notification pipelines.
 - **[Corporate Booking](https://github.com/NellasTerton/AI-Booking-Prototype)** — a React scheduling service with strict business logic: interval overlap validation and double-booking prevention.
+- **[Watching & Nitpicking](https://github.com/NellasTerton/tgchannelbot)** — an automated AI pipeline for a Telegram channel: takes a rough draft, routes movies/TV shows and games into separate workflows, enriches them with verified facts and ratings via TMDB, OMDb, RAWG, and Tavily, then uses Claude to turn the result into a polished post with a photo gallery. Make.com orchestrates the workflow, while Google Sheets serves as the queue and publishing audit log.
+
 
 ### 🧠 LLM Architecture & Prompt Engineering
  
