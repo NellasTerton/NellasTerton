@@ -28,6 +28,8 @@
 - **[Medbot](https://github.com/NellasTerton/medbot)** — AI-консьерж для клиники. Роутинг интента на два режима: ответ по базе знаний через RAG или сбор заявки на приём с передачей в Make.com, Telegram и Notion. Юнит-тесты, а также smoke- и QA-прогоны против продакшена.
 - **[Lex CRM](https://github.com/NellasTerton/accessiblelawtest)** — прототип LegalTech-дашборда: React/TypeScript фронтенд, связанный с Make.com и Telegram Bot API для автоматизации уведомлений о лидах.
 - **[Corporate Booking](https://github.com/NellasTerton/AI-Booking-Prototype)** — сервис бронирования на React со строгой бизнес-логикой: валидация пересечения интервалов и защита от двойного бронирования.
+- **[Смотрю, душню](https://github.com/NellasTerton/tgchannelbot)** — автоматизированный AI-пайплайн для Telegram-канала: принимает сырой черновик, роутит фильмы/сериалы и игры в разные ветки, собирает проверяемые факты и рейтинги через TMDB, OMDb, RAWG и Tavily, а Claude превращает их в готовый пост с фотогалереей. Make.com оркестрирует весь процесс, а Google Sheets используется как очередь и аудит-лог публикаций.
+
 
 ### 🧠 LLM-архитектура и промпт-инжиниринг
 
