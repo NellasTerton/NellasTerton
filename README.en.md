@@ -41,9 +41,9 @@ I help businesses and startups automate processes and build AI products for spec
 - **[UniQee](https://github.com/NellasTerton/uniqee)** — a production LLM "Arbiter": a game-master agent processing simultaneous blind inputs from two users and driving a state machine. Strict XML guardrails force the model to return valid JSON for safe backend parsing.
 - **[Telegram AI Companion Engine](https://github.com/NellasTerton/AI-pornbot)** — system prompts and state logic for a character-driven AI companion inside a Telegram Mini App.
 
-### ⚙️ Products & Automation
+### 🎮 Entertainment Products
 
-*Services that keep reconciling with an external source: scheduling, synchronisation, state recalculation.*
+*Built for the fun of it rather than for a business case. More to come here.*
 
 - **[UEFA Predict 26/27](https://github.com/NellasTerton/uefa-predictions)** — a football forecasting PWA for friends, covering the Champions League, Europa League and Conference League in one app across 396 fixtures. A shared leaderboard with a per-tournament breakdown of points. Results arrive on their own: a Deno Edge Function, scheduled by pg_cron every 10 minutes, reconciles fixtures against ESPN by id, rescores forecasts and rebuilds the standings. Supabase with Row Level Security, irreversible account deletion through a privileged function, and a hard kick-off time lock on forecasts. The repository carries both versions: the current club edition and the archived World Cup one.
 
