@@ -43,14 +43,9 @@ I help businesses and startups automate processes and build AI products for spec
 
 ### 🎮 Entertainment Products
 
-*Built for the fun of it rather than for a business case. More to come here.*
+*Built for the fun of it rather than for a business case. The first one is live; the rest are in progress.*
 
 - **[UEFA Predict 26/27](https://github.com/NellasTerton/uefa-predictions)** — a football forecasting PWA for friends, covering the Champions League, Europa League and Conference League in one app across 396 fixtures. A shared leaderboard with a per-tournament breakdown of points. Results arrive on their own: a Deno Edge Function, scheduled by pg_cron every 10 minutes, reconciles fixtures against ESPN by id, rescores forecasts and rebuilds the standings. Supabase with Row Level Security, irreversible account deletion through a privileged function, and a hard kick-off time lock on forecasts. The repository carries both versions: the current club edition and the archived World Cup one.
-
-### 🧪 R&D Lab
- 
-*What I'm building in parallel:*
-
 - **Truth or Dare (ComfyUI):** an interactive visual novel with real-time face-swap and dynamic character clothing generation via automated ComfyUI workflows.
 - **Mobile-UI Interactive Fiction:** a procedural narrative game where the entire gameplay happens through a simulated smartphone OS interface.
 - **Myth & History Card Game:** a variable-driven collectible card game (MadFUT style) featuring historical figures and mythology.
