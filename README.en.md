@@ -26,6 +26,7 @@ I help businesses and startups automate processes and build AI products for spec
  
 - **[Lord of the Rigs](https://github.com/NellasTerton/Lord-of-the-Rigs)** — a deployed fitness-club assistant grounded in a pgvector knowledge base: it answers strictly from retrieved facts and books real training sessions into Postgres via Claude tool calling. One shared agent core serves both a web chat widget and a Telegram bot.
 - **[Medbot](https://github.com/NellasTerton/medbot)** — an AI concierge for a clinic. Intent routing into two modes: answering from the knowledge base via RAG, or collecting an appointment request and handing it off to Make.com, Telegram and Notion. Unit tests plus smoke and QA runs against production. 
+- **[FixFlow AI](https://github.com/NellasTerton/fixflow-ai)** — an AI dispatcher for field-service companies: Claude drives the whole conversation itself and books real availability into Postgres via tool calling, with atomic double-booking protection, handing the lead off to a CRM Kanban board and Make.com → Telegram. Unit tests plus live runs against the real model and database.
 - **[Lex CRM](https://github.com/NellasTerton/accessiblelawtest)** — a LegalTech dashboard prototype: a React/TypeScript frontend wired to Make.com and the Telegram Bot API to automate lead notification pipelines.
 - **[Corporate Booking](https://github.com/NellasTerton/AI-Booking-Prototype)** — a React scheduling service with strict business logic: interval overlap validation and double-booking prevention.
 - **[Watching & Nitpicking](https://github.com/NellasTerton/tgchannelbot)** — an automated AI pipeline for a Telegram channel: takes a rough draft, routes movies/TV shows and games into separate workflows, enriches them with verified facts and ratings via TMDB, OMDb, RAWG, and Tavily, then uses Claude to turn the result into a polished post with a photo gallery. Make.com orchestrates the workflow, while Google Sheets serves as the queue and publishing audit log.
@@ -44,7 +45,6 @@ I help businesses and startups automate processes and build AI products for spec
  
 *What I'm building in parallel:*
 
-- **[FixFlow AI](https://github.com/NellasTerton/fixflow-ai)** 🚧 *actively in development* — an AI dispatcher for field service companies.
 - **Truth or Dare (ComfyUI):** an interactive visual novel with real-time face-swap and dynamic character clothing generation via automated ComfyUI workflows.
 - **Mobile-UI Interactive Fiction:** a procedural narrative game where the entire gameplay happens through a simulated smartphone OS interface.
 - **Myth & History Card Game:** a variable-driven collectible card game (MadFUT style) featuring historical figures and mythology.
