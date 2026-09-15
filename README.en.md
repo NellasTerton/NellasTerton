@@ -41,7 +41,7 @@ I help businesses and startups automate processes and build AI products for spec
 - **[UniQee](https://github.com/NellasTerton/uniqee)** — a production LLM "Arbiter": a game-master agent processing simultaneous blind inputs from two users and driving a state machine. Strict XML guardrails force the model to return valid JSON for safe backend parsing.
 - **[Telegram AI Companion Engine](https://github.com/NellasTerton/AI-pornbot)** — system prompts and state logic for a character-driven AI companion inside a Telegram Mini App.
 
-### 🔄 Live-data Products
+### ⚙️ Products & Automation
 
 *Services that keep reconciling with an external source: scheduling, synchronisation, state recalculation.*
 
