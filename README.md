@@ -12,7 +12,7 @@
 
 * **AI Models & APIs:** Claude, Anthropic API, OpenAI / GPT, Gemini, Ollama, Voyage AI.
 * **RAG & Knowledge Retrieval:** RAG, ingest, chunking, embeddings, pgvector, hybrid search, semantic search, grounding, source attribution.
-* **Agent & LLM Engineering:** AI agents, tool calling, system prompts, prompt engineering, structured output, JSON contracts, XML guardrails, state machines, routing, validation, deterministic logic, fallback flows, LangGraph.
+* **Agent & LLM Engineering:** MCP (Model Context Protocol), MCP-серверы, транспорты stdio и Streamable HTTP, AI agents, tool calling, system prompts, prompt engineering, structured output, JSON contracts, XML guardrails, state machines, routing, validation, deterministic logic, fallback flows, LangGraph.
 * **Automation & Integrations:** Make.com, n8n, REST API, webhooks, Telegram Bot API, Notion API, Tavily API.
 * **Backend & Data:** Node.js, Python, JavaScript, TypeScript, SQL, PostgreSQL, Neon, Supabase, Drizzle ORM.
 * **Frontend & App Development:** React, Next.js, Tailwind CSS, shadcn/ui, PWA, Telegram Mini Apps.
@@ -25,7 +25,7 @@
 *Продукты, решающие конкретную бизнес-задачу: встретить клиента, ответить по фактам, довести до записи.*
 
 - **[Lord of the Rigs](https://github.com/NellasTerton/Lord-of-the-Rigs)** — задеплоенный ассистент фитнес-клуба, работающий на базе знаний pgvector: отвечает строго на основе найденных фактов и записывает на реальные тренировки в Postgres через tool calling Claude. Одно общее ядро агента обслуживает и веб-виджет чата, и Telegram-бота.
-- **[Medbot](https://github.com/NellasTerton/medbot)** — AI-консьерж для клиники. Роутинг интента на два режима: ответ по базе знаний через RAG или сбор заявки на приём с передачей в Make.com, Telegram и Notion. Юнит-тесты, а также smoke- и QA-прогоны против продакшена.
+- **[Medbot](https://github.com/NellasTerton/medbot)** — AI-консьерж для клиники. Роутинг интента на два режима: ответ по базе знаний через RAG или сбор заявки на приём с передачей в Make.com, Telegram и Notion. Юнит-тесты, а также smoke- и QA-прогоны против продакшена. Плюс MCP-сервер: те же операции доступны Claude Desktop как нативные инструменты, через два транспорта поверх общего ядра — stdio локально и Streamable HTTP на Vercel.
 - **[FixFlow AI](https://github.com/NellasTerton/fixflow-ai)** — AI-диспетчер для выездных сервисных компаний: Claude сам ведёт диалог и через tool calling бронирует реальное свободное время в Postgres с атомарной защитой от двойной записи, передавая заявку в CRM-канбан и в Make.com → Telegram. Юнит-тесты плюс живые прогоны против реальной модели и базы.
 - **[Lex CRM](https://github.com/NellasTerton/accessiblelawtest)** — прототип LegalTech-дашборда: React/TypeScript фронтенд, связанный с Make.com и Telegram Bot API для автоматизации уведомлений о лидах.
 - **[Corporate Booking](https://github.com/NellasTerton/AI-Booking-Prototype)** — сервис бронирования на React со строгой бизнес-логикой: валидация пересечения интервалов и защита от двойного бронирования.

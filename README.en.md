@@ -12,7 +12,7 @@ I help businesses and startups automate processes and build AI products for spec
 
 * **AI Models & APIs:** Claude, Anthropic API, OpenAI / GPT, Gemini, Ollama, Voyage AI.
 * **RAG & Knowledge Retrieval:** RAG, ingest, chunking, embeddings, pgvector, hybrid search, semantic search, grounding, source attribution.
-* **Agent & LLM Engineering:** AI agents, tool calling, system prompts, prompt engineering, structured output, JSON contracts, XML guardrails, state machines, routing, validation, deterministic logic, fallback flows, LangGraph.
+* **Agent & LLM Engineering:** MCP (Model Context Protocol), MCP servers, stdio and Streamable HTTP transports, AI agents, tool calling, system prompts, prompt engineering, structured output, JSON contracts, XML guardrails, state machines, routing, validation, deterministic logic, fallback flows, LangGraph.
 * **Automation & Integrations:** Make.com, n8n, REST API, webhooks, Telegram Bot API, Notion API, Tavily API.
 * **Backend & Data:** Node.js, Python, JavaScript, TypeScript, SQL, PostgreSQL, Neon, Supabase, Drizzle ORM.
 * **Frontend & App Development:** React, Next.js, Tailwind CSS, shadcn/ui, PWA, Telegram Mini Apps.
@@ -25,7 +25,7 @@ I help businesses and startups automate processes and build AI products for spec
 *Products solving a concrete business problem: greet the client, answer from facts, convert to a booking.*
  
 - **[Lord of the Rigs](https://github.com/NellasTerton/Lord-of-the-Rigs)** — a deployed fitness-club assistant grounded in a pgvector knowledge base: it answers strictly from retrieved facts and books real training sessions into Postgres via Claude tool calling. One shared agent core serves both a web chat widget and a Telegram bot.
-- **[Medbot](https://github.com/NellasTerton/medbot)** — an AI concierge for a clinic. Intent routing into two modes: answering from the knowledge base via RAG, or collecting an appointment request and handing it off to Make.com, Telegram and Notion. Unit tests plus smoke and QA runs against production. 
+- **[Medbot](https://github.com/NellasTerton/medbot)** — an AI concierge for a clinic. Intent routing into two modes: answering from the knowledge base via RAG, or collecting an appointment request and handing it off to Make.com, Telegram and Notion. Unit tests plus smoke and QA runs against production. It also ships an MCP server: the same operations are available to Claude Desktop as native tools, over two transports on top of a shared core — stdio locally and Streamable HTTP on Vercel. 
 - **[FixFlow AI](https://github.com/NellasTerton/fixflow-ai)** — an AI dispatcher for field-service companies: Claude drives the whole conversation itself and books real availability into Postgres via tool calling, with atomic double-booking protection, handing the lead off to a CRM Kanban board and Make.com → Telegram. Unit tests plus live runs against the real model and database.
 - **[Lex CRM](https://github.com/NellasTerton/accessiblelawtest)** — a LegalTech dashboard prototype: a React/TypeScript frontend wired to Make.com and the Telegram Bot API to automate lead notification pipelines.
 - **[Corporate Booking](https://github.com/NellasTerton/AI-Booking-Prototype)** — a React scheduling service with strict business logic: interval overlap validation and double-booking prevention.
